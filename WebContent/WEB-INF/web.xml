@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>TestParsley</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <listener>
+    <listener-class>org.seterryxu.parsleyframework.ParsleyListener</listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>parsley</servlet-name>
+    <servlet-class>org.seterryxu.parsleyframework.Parsley</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>parsley</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <env-entry>
+    <env-entry-name>Parsley.trace</env-entry-name>
+    <env-entry-type>java.lang.Boolean</env-entry-type>
+    <env-entry-value>true</env-entry-value>
+  </env-entry>
+  <env-entry>
+    <env-entry-name>Parsley.noResourcePathCache</env-entry-name>
+    <env-entry-type>java.lang.Boolean</env-entry-type>
+    <env-entry-value>true</env-entry-value>
+  </env-entry>
+</web-app>
