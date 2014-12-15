@@ -1,24 +1,28 @@
 <html>
-
 <head>
-<#include "/import_bootstrap.ftl">
-<#include "/breadcrumb.ftl">
-<#include "/panel.ftl">
-<#include "/button.ftl">
-<#include "/well.ftl">
-
-<@import_bootstrap/>
+	<#include "/imp_bootstrap.ftl">
+	<#include "/breadcrumb.ftl">
+	<#include "/panel.ftl">
+	<#include "/button.ftl">
+	<#include "/well.ftl">
+	
+	<@imp_bootstrap/>
 </head>
 
 <body>
+<@breadcrumb>
+	<li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</@breadcrumb>
 
-<@breadcrumb content="abc"/>
-
-<@button name="refresh"/>
+<@button text="refresh"/>
 
 ${it}
 
-<@well content="def"/>
+<@well>
+<h3>Powered by Parsley!</h3>
+</@well>
 
 </body>
 
