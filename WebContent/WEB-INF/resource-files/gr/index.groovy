@@ -1,5 +1,9 @@
 
+def n=namespace(lib.ComponentLib)
 
-def n=namespace('components')
+//n.button(text:'Refresh')
 
-well(content:'abc')
+n.well(){
+	'<b>Powered by Parsley!</b>'
+}
+

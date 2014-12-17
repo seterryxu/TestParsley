@@ -21,7 +21,7 @@
 ${it}
 
 <@well>
-<h3>Powered by Parsley!</h3>
+<b>Powered by Parsley!</b>
 </@well>
 
 </body>
