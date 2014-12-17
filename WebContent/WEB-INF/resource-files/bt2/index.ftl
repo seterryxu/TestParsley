@@ -1,4 +1,1 @@
-<#include "/imp_bootstrap.ftl">
-<#include "/well.ftl">
-
-<@well><h1>abc</h1></@well>
+<#include "/imp_bootstrap.ftl"><@imp_bootstrap/><#include "/well.ftl"><@well><h1>abc</h1></@well>
