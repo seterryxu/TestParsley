@@ -1,1 +1,13 @@
-<#include "/imp_bootstrap.ftl"><@imp_bootstrap/><#include "/well.ftl"><@well><h1>abc</h1></@well>
+<#include "/includes/header.ftl">
+
+<@breadcrumb>
+
+</@breadcrumb>
+
+<@panel>
+
+
+
+</@panel>
+
+<#include "/includes/footer.ftl">

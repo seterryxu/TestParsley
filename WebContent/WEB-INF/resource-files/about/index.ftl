@@ -1,17 +1,7 @@
-<html>
-<head>
-	<#include "/imp_bootstrap.ftl">
-	<#include "/breadcrumb.ftl">
-	<#include "/panel.ftl">
-	<#include "/button.ftl">
-	<#include "/well.ftl">
-	
-	<@imp_bootstrap/>
-</head>
+<#include "/includes/header.ftl">
 
-<body>
 <@breadcrumb>
-	<li><a href="#">Home</a></li>
+<li><a href="#">Home</a></li>
   <li><a href="#">Library</a></li>
   <li class="active">Data</li>
 </@breadcrumb>
@@ -20,10 +10,4 @@
 
 ${it}
 
-<@well>
-<b>Powered by Parsley!</b>
-</@well>
-
-</body>
-
-</html>
+<#include "/includes/footer.ftl">
