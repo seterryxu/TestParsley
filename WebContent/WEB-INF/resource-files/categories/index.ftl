@@ -1,13 +1,12 @@
 <#include "/includes/header.ftl">
 
-<@breadcrumb>
+<#include "/includes/layout.ftl">
+<@layout>
 
-</@breadcrumb>
+<ul>
+  <li>History</li>
+  <li>Jenkins Internals</li>
+  <li>Continuous Integration</li>
+</ul>
 
-<@panel>
-
-
-
-</@panel>
-
-<#include "/includes/footer.ftl">
+</@layout>

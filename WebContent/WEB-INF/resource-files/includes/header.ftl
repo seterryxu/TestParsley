@@ -1,21 +1,17 @@
-<#include "/imp_bootstrap.ftl">
-<#include "/pageheader.ftl">
-<#include "/navbar.ftl">
-
-<@imp_bootstrap/>
-
-<@pageheader>
-	<h3>Terry Xu <small>Personal website of Terry Xu</small></h3>
-</@pageheader>
-
-<@navbar inverted="true" fixed="top">
-<ul class="nav navbar-nav">
-  <li><a href="#">Blogs</a></li>
-  <li><a href="${contextPath}/categories/">Categories</a></li>
-  <li><a href="${contextPath}/about/">About</a></li>
-</ul>
-</@navbar>
-
-<#include "/breadcrumb.ftl">
-<#include "/panel.ftl">
-<#include "/button.ftl">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Terry Xu">
+  <meta name="description" content="Personal website of Terry Xu">
+  
+  <title>Terry Xu</title> 
+  
+  <#include "/imp_bootstrap.ftl">
+  <@imp_bootstrap/>
+  
+  <link href="bootstrap/css/blog.css" type="text/css" rel="stylesheet">
+	
+  <#include "/breadcrumb.ftl">
+  
+</head>

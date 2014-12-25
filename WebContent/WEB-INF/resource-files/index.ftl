@@ -1,14 +1,7 @@
 <#include "/includes/header.ftl">
 
-<@breadcrumb>
-
-</@breadcrumb>
-
-<@panel>
+<#include "/includes/layout.ftl">
+<@layout>
 
 
-
-</@panel>
-	
-<#include "/includes/footer.ftl">
-
+</@layout>

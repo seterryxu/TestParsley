@@ -1,13 +1,9 @@
 <#include "/includes/header.ftl">
 
-<@breadcrumb>
-<li><a href="#">Home</a></li>
-  <li><a href="#">Library</a></li>
-  <li class="active">Data</li>
-</@breadcrumb>
+<#include "/includes/layout.ftl">
+<@layout>
 
-<@button text="refresh"/>
+<p><b>Terry Xu at a glance</b><p>
+E-mail: cs.terryxu@gmail.com
 
-${it}
-
-<#include "/includes/footer.ftl">
+</@layout>
