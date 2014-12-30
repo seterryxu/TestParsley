@@ -4,9 +4,10 @@
 <@layout>
 
 <ul>
-  <li>History</li>
-  <li>Jenkins Internals</li>
-  <li>Continuous Integration</li>
+  <li><a href="#">Continuous Integration</a></li>
+  <li><a href="#">Jenkins Internals</a></li>
+  <li><a href="#">Jenkins Plugin Techniques</a></li>
+  <li><a href="#">Test Automation</a></li>
 </ul>
 
 </@layout>
