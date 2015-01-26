@@ -10,11 +10,11 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <listener>
-    <listener-class>org.seterryxu.parsleyframework.ParsleyListener</listener-class>
+    <listener-class>org.terryxu.parsleyframework.ParsleyListener</listener-class>
   </listener>
   <servlet>
     <servlet-name>parsley</servlet-name>
-    <servlet-class>org.seterryxu.parsleyframework.Parsley</servlet-class>
+    <servlet-class>org.terryxu.parsleyframework.Parsley</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>parsley</servlet-name>

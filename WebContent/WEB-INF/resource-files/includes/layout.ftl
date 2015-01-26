@@ -6,13 +6,13 @@
   <body>
 
     <#include "/navbar.ftl">
-    <@navbar inverted="true" fixed="top">
-      <a class="blog-nav-item active" href="${contextPath}">Home</a>
+    <@navbar type="inverted" fixedTo="top">
+      <a class="blog-nav-item" href="${contextPath}">Home</a>
       <a class="blog-nav-item" href="${contextPath}/categories/">Categories</a>
       <a class="blog-nav-item" href="${contextPath}/about/">About</a>
     </@navbar>
 
-    <div class="container">
+    <div class="container" style="padding-top:30px">
       <div class="blog-header">
         <h1 class="blog-title">Terry Xu</h1>
         <p class="lead blog-description">Personal website of Terry Xu</p>

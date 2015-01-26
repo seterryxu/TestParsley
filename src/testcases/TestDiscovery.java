@@ -3,7 +3,7 @@ package testcases;
 import java.util.Enumeration;
 
 import org.apache.commons.discovery.tools.Service;
-import org.seterryxu.parsleyframework.core.Facet;
+import org.terryxu.parsleyframework.core.Facet;
 
 public class TestDiscovery {
 

@@ -1,5 +1,7 @@
 <#include "/includes/header.ftl"/>
+<#include "/includes/layout.ftl"/>
 
-<#include "/includes/ueditor/index.html">
+<@layout>
 
-<#include "/includes/footer.ftl"/>
+
+</@layout>
